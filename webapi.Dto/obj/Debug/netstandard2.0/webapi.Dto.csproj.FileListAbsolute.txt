@@ -1,0 +1,9 @@
+/Users/joseph/dev/dotnet/webapi/webapi.Dto/bin/Debug/netstandard2.0/webapi.Dto.deps.json
+/Users/joseph/dev/dotnet/webapi/webapi.Dto/bin/Debug/netstandard2.0/webapi.Dto.dll
+/Users/joseph/dev/dotnet/webapi/webapi.Dto/bin/Debug/netstandard2.0/webapi.Dto.pdb
+/Users/joseph/dev/dotnet/webapi/webapi.Dto/obj/Debug/netstandard2.0/webapi.Dto.csprojAssemblyReference.cache
+/Users/joseph/dev/dotnet/webapi/webapi.Dto/obj/Debug/netstandard2.0/webapi.Dto.csproj.CoreCompileInputs.cache
+/Users/joseph/dev/dotnet/webapi/webapi.Dto/obj/Debug/netstandard2.0/webapi.Dto.AssemblyInfoInputs.cache
+/Users/joseph/dev/dotnet/webapi/webapi.Dto/obj/Debug/netstandard2.0/webapi.Dto.AssemblyInfo.cs
+/Users/joseph/dev/dotnet/webapi/webapi.Dto/obj/Debug/netstandard2.0/webapi.Dto.dll
+/Users/joseph/dev/dotnet/webapi/webapi.Dto/obj/Debug/netstandard2.0/webapi.Dto.pdb

@@ -1,0 +1,9 @@
+/Users/joseph/dev/dotnet/webapi/webapi.Models/bin/Debug/netstandard2.0/webapi.Models.deps.json
+/Users/joseph/dev/dotnet/webapi/webapi.Models/bin/Debug/netstandard2.0/webapi.Models.dll
+/Users/joseph/dev/dotnet/webapi/webapi.Models/bin/Debug/netstandard2.0/webapi.Models.pdb
+/Users/joseph/dev/dotnet/webapi/webapi.Models/obj/Debug/netstandard2.0/webapi.Models.csprojAssemblyReference.cache
+/Users/joseph/dev/dotnet/webapi/webapi.Models/obj/Debug/netstandard2.0/webapi.Models.csproj.CoreCompileInputs.cache
+/Users/joseph/dev/dotnet/webapi/webapi.Models/obj/Debug/netstandard2.0/webapi.Models.AssemblyInfoInputs.cache
+/Users/joseph/dev/dotnet/webapi/webapi.Models/obj/Debug/netstandard2.0/webapi.Models.AssemblyInfo.cs
+/Users/joseph/dev/dotnet/webapi/webapi.Models/obj/Debug/netstandard2.0/webapi.Models.dll
+/Users/joseph/dev/dotnet/webapi/webapi.Models/obj/Debug/netstandard2.0/webapi.Models.pdb

@@ -1,0 +1,32 @@
+
+# https://codeburst.io/how-to-set-up-a-modern-full-stack-net-web-development-environment-on-mac-os-542dcd43a564
+# copy the CODE from this article
+
+# install docker
+
+# download the sql server docker image
+sudo docker pull microsoft/mssql-server-linux:2017-latest
+
+# run the container && complete the sql server installation
+sudo docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=Passw0rd!' -p 1433:1433 --name mssql -d microsoft/mssql-server-linux:2017-latest
+
+# confirm container is running
+docker ps -a
+
+# start the container
+# if docker has stopped, this must be re-ran
+docker start mssql
+
+# download Azure Data Studio
+# or Microsoft Operations Studio
+# for the OS https://docs.microsoft.com/en-us/sql/azure-data-studio/download?view=sql-server-2017
+
+# install entity framework into classlib
+# dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 2.2.0
+# any project that uses this project needs to have the following for ef cli tool
+# dotnet add package Microsoft.EntityFrameworkCore.Design --version 2.2.0
+
+# build & run the dll
+dotnet run
+
+

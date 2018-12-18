@@ -1,0 +1,14 @@
+/Users/joseph/dev/dotnet/webapi/webapi.Business/bin/Debug/netstandard2.0/webapi.Business.deps.json
+/Users/joseph/dev/dotnet/webapi/webapi.Business/bin/Debug/netstandard2.0/webapi.Business.dll
+/Users/joseph/dev/dotnet/webapi/webapi.Business/bin/Debug/netstandard2.0/webapi.Business.pdb
+/Users/joseph/dev/dotnet/webapi/webapi.Business/obj/Debug/netstandard2.0/webapi.Business.csprojAssemblyReference.cache
+/Users/joseph/dev/dotnet/webapi/webapi.Business/obj/Debug/netstandard2.0/webapi.Business.csproj.CoreCompileInputs.cache
+/Users/joseph/dev/dotnet/webapi/webapi.Business/obj/Debug/netstandard2.0/webapi.Business.AssemblyInfoInputs.cache
+/Users/joseph/dev/dotnet/webapi/webapi.Business/obj/Debug/netstandard2.0/webapi.Business.AssemblyInfo.cs
+/Users/joseph/dev/dotnet/webapi/webapi.Business/obj/Debug/netstandard2.0/webapi.Business.dll
+/Users/joseph/dev/dotnet/webapi/webapi.Business/obj/Debug/netstandard2.0/webapi.Business.pdb
+/Users/joseph/dev/dotnet/webapi/webapi.Business/bin/Debug/netstandard2.0/webapi.AuthDAL.dll
+/Users/joseph/dev/dotnet/webapi/webapi.Business/bin/Debug/netstandard2.0/webapi.AuthDAL.pdb
+/Users/joseph/dev/dotnet/webapi/webapi.Business/obj/Debug/netstandard2.0/webapi.Business.csproj.CopyComplete
+/Users/joseph/dev/dotnet/webapi/webapi.Business/bin/Debug/netstandard2.0/webapi.Models.dll
+/Users/joseph/dev/dotnet/webapi/webapi.Business/bin/Debug/netstandard2.0/webapi.Models.pdb

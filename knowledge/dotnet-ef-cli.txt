@@ -1,0 +1,11 @@
+
+dotnet add webapi.AuthDAL package Microsoft.EntityFrameworkCore.SqlServer -v 2.1.0
+dotnet add webapi.AuthDAL package Microsoft.EntityFrameworkCore.Design -v 2.1.0
+dotnet add webapi.AuthDAL package Microsoft.EntityFrameworkCore.Tools -v 2.1.0
+dotnet add webapi.WebApi package Microsoft.EntityFrameworkCore.Design -v 2.1.0
+# setup and test entity framework
+# initialize by running this:
+cd webapi.AuthDAL
+dotnet ef --startup-project ../webapi.WebApi migrations add Initialize
+dotnet ef --startup-project ../webapi.WebApi database update
+

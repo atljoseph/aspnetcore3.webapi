@@ -1,0 +1,47 @@
+
+dotnet core 3 preview 1
+
+mkdir -p webapi
+dotnet new sln -o webapi
+
+mkdir -p webapi.WebApi
+dotnet new webapi
+
+mkdir -p webapi.Models
+dotnet new classlib
+
+mkdir -p webapi.Dto
+dotnet new classlib
+
+mkdir -p webapi.AuthDAL
+dotnet new classlib
+
+mkdir -p webapi.Business
+dotnet new classlib
+
+# might have to move some folders around, as the cli sometimes adds extra folders to projects
+
+dotnet sln webapi.sln add webapi.WebApi/webapi.WebApi.csproj
+dotnet sln webapi.sln add webapi.Models/webapi.Models.csproj
+dotnet sln webapi.sln add webapi.Dto/webapi.Dto.csproj
+dotnet sln webapi.sln add webapi.AuthDAL/webapi.AuthDAL.csproj
+dotnet sln webapi.sln add webapi.Business/webapi.Business.csproj
+
+dotnet add webapi.WebApi/webapi.WebApi.csproj reference webapi.Models/webapi.Models.csproj
+dotnet add webapi.WebApi/webapi.WebApi.csproj reference webapi.Dto/webapi.Dto.csproj
+# dotnet add webapi.WebApi/webapi.WebApi.csproj reference webapi.AuthDAL/webapi.AuthDAL.csproj
+dotnet add webapi.WebApi/webapi.WebApi.csproj reference webapi.Business/webapi.Business.csproj
+dotnet add webapi.Business/webapi.Business.csproj reference webapi.AuthDAL/webapi.AuthDAL.csproj
+dotnet add webapi.Business/webapi.Business.csproj reference webapi.Models/webapi.Models.csproj
+
+dotnet restore
+dotnet restore --force
+dotnet build
+dotnet run --project webapi.WebApi
+# Ctrl + c
+
+dotnet add webapi.WebApi package AutoMapper
+dotnet add webapi.WebApi package AutoMapper.Extensions.Microsoft.DependencyInjection
+dotnet add webapi.Business package AutoMapper
+dotnet add webapi.Business package AutoMapper.Extensions.Microsoft.DependencyInjection
+# setup automapper and test
