@@ -1,5 +1,7 @@
+This project is inactive (for meow).
+
 # aspnetcore3.webapi
-AspNetCore 3 - WebApi in Layers
+AspNetCore 3 - WebApi in Layers 
 
 # Confused? Seek `Knowledge`!
 Check the `knowledge` folder when in doubt. There are a bunch of notes in there from development in case you are confused or stuck on a build issue.
